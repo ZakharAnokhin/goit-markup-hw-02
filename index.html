@@ -5,60 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/styles.css" />
+
   </head>
 
   <body>
     <header>
       <nav>
-        <a href="./index.html">WEBSTUDIO</a>
+        <a href="./index.html" class="logo"><span class="accent">WEB</span>STUDIO</a>
         <ul>
-          <li><a href="./index.html">Studio</a></li>
+          <li><a href="./index.html" class="site-nav list">Studio</a></li>
           <li><a href="">Portfolio</a></li>
           <li><a href="">Contacts</a></li>
         </ul>
       </nav>
       <address>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+        <ul class="contacts list">
+          <li><a href="mailto:info@devstudio.com" class="contact">info@devstudio.com</a></li>
+          <li><a href="tel:+110001111111" class="contact">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
     </header>
 
     <main>
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="hero>
+        <h1 class="hero-title">Effective Solutions for Your Business</h1>
+        <button type="button" class="btn">Order Service</button>
         
       </section>
 
-      <section>
-        <h2>Our advantages</h2>
-        <ul>
+      <section class="advantages section">
+        <h2 class="section-title visually-hidden">Our advantages</h2>
+        <ul class="list">
           <li>
-            <h3>Strategy</h3>
-            <p>
+            <h3 class="advantage">Strategy</h3>
+            <p class="advantage-description">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
-            <h3>Punctuality</h3>
-            <p>
+            <h3 class="advantage">Punctuality</h3>
+            <p class="advantage-description">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h3>Diligence</h3>
-            <p>
+            <h3 class="advantage">Diligence</h3>
+            <p class="advantage-description">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h3>Technologies</h3>
-            <p>
+            <h3 class="advantage">Technologies</h3>
+            <p class="advantage-description">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -66,9 +72,9 @@
         </ul>
       </section>
 
-      <section>
-        <h2>What are we doing</h2>
-        <ul>
+      <section class="section">
+        <h2 class="section-title">What are we doing</h2>
+        <ul class="products list">
           <li>
             <img width="360" height="300" src="./images/imac.jpg" alt="imac" />
           </li>
@@ -91,9 +97,9 @@
         </ul>
       </section>
 
-      <section>
-        <h2>Our Team</h2>
-        <ul>
+      <section class="team section">
+        <h2 class="section-title">Our Team</h2>
+        <ul class="list">
           <li>
             <img
             width="264"
@@ -101,8 +107,8 @@
             src="./images/mark-guerrero.jpg"
             alt="Mark Guerrero"
           />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <h3 class="name">Mark Guerrero</h3>
+            <p class="position">Product Designer</p>
            
           </li>
           <li>
@@ -112,8 +118,8 @@
               src="./images/tom-ford.jpg"
               alt="Tom Ford"
             />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <h3 class="name">Tom Ford</h3>
+            <p class="position">Frontend Developer</p>
             
           </li>
           <li>
@@ -123,8 +129,8 @@
             src="./images/camila-garcia.jpg"
             alt="Camila Garcia"
           />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <h3 class="name">Camila Garcia</h3>
+            <p class="position">Marketing</p>
            
           </li>
           <li>
@@ -134,18 +140,18 @@
               src="./images/daniel-wilson.jpg"
               alt="Daniel Wilson"
             />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <h3 class="name">Daniel Wilson</h3>
+            <p class="position">UI Designer</p>
             
           </li>
         </ul>
       </section>
     </main>
 
-    <footer>
+    <footer class="footer">
       <div>
-        <a href="./index.html">WEBSTUDIO</a>
-        <p>
+        <a href="./index.html"class="logo"><span class="accent">WEB</span>STUDIO</a>
+        <p class="motto">
           Increase the flow of customers and sales for your business with
           digital marketing amp; growth solutions.
         </p>
