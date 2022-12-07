@@ -66,7 +66,7 @@
   
   /* Navigation menu */
   
-  .site-nav .link {
+  .nav-link .link {
     color: var(--dark);
     text-decoration: none;
     font-weight: 500;
@@ -74,12 +74,12 @@
     letter-spacing: 0.02em;
   }
   
-  .site-nav .link:hover,
-  .site-nav .link:focus {
+  .nav-link .link:hover,
+  .nav-link .link:focus {
     color: var(--primary-text-color);
   }
   
-  .site-nav .link:active {
+  .nav-link .link:active {
     color: var(--primary-brand);
   }
   
@@ -101,16 +101,17 @@
   /* MAIN CONTENT */
   
   /* Hero */
-  
+
   .hero-title {
     /* temporary background color because text color is white */
-    background-color: navy;
+    background-color: #2e2f42;
     color: var(--secondary-text-color);
     font-weight: 500;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
+   
   }
   /*text-align - расположение тескта на странице(лево/центр/право)  */
   
@@ -154,10 +155,10 @@
     text-transform: capitalize;
   }
   
-  .advantage,
+  .advantage-title,
   .name {
     color: var(--dark);
-    font-weight: 500;
+    font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -191,6 +192,7 @@
     border-radius: 4px;
   
     cursor: pointer;
+    border: none;
   }
   
   .filter-btn:hover,
@@ -209,12 +211,28 @@
     letter-spacing: 0.02em;
   }
   
-  .example-name {
+  .project-name {
     color: var(--dark);
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+  }
+
+  .project-type{
+      width: 30px;
+      height: 24px;
+    
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.02em;
+      
+      /* identical to box height, or 150% */
+    
+      letter-spacing: 0.02em;
   }
   
   /* FOOTER */
@@ -223,11 +241,11 @@
   }
   
   .footer .logo,
-  .motto {
+  .footer-descriptoin {
     color: var(--secondary-text-color);
   }
   
-  .motto {
+  .footer-descriptoin {
     line-height: 1.5;
     letter-spacing: 0.02em;
   }
