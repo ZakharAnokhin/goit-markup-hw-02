@@ -66,14 +66,22 @@
   
   /* Navigation menu */
   
-  .nav-link .link {
+ .link {
     color: var(--dark);
     font-weight: 600;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
   }
-  
+  .nav-link  {
+       color: var(--dark);
+       font-weight: 600;
+       line-height: 1.5;
+       letter-spacing: 0.02em;
+       text-decoration: none;
+     }
+
+
   .nav-link .link:hover,
   .nav-link .link:focus {
     color: var(--primary-text-color);
